@@ -1,0 +1,83 @@
+*
+{
+    padding:0;
+    margin:0;
+
+}
+h1{
+    background-color:black;
+    color: white;
+height:5rem;
+line-height: 5rem;
+text-align: center;
+}
+.choice1
+{
+    height:165px;
+    width:165px;
+border-radius: 50%;
+display:flex;
+justify-content:center;
+align-items: center;
+
+}
+img{
+height:150px;
+width:150px;
+object-fit: cover;
+border-radius: 50%;
+}
+.choices
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:3rem;
+    margin-top:5rem ;
+}
+.choice1:hover{
+  
+    cursor:pointer;
+    background-color: black;
+}
+.score-board
+{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 2 rem;
+    margin-top:3rem;
+    gap:5rem;
+}
+#user,#comp{
+font-size:4rem;
+}
+.result {
+    margin-top: 0.1rem;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start; /* Align content at the top */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Full viewport height */
+}
+
+#mssg {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    display: inline-block; /* Keep the inline nature */
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 2rem; /* Reduce space above */
+}
+
+/* Additional styling for "Play Your Moves" */
+#playMoves {
+    margin-top: 0.5rem; /* Reduced space between messages */
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+}
+
+
